@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework №2</title>
+</head>
+<body>
+        <h1>Homework №2</h1>
+
+        <table border="1" cellpadding="2">
+<thead>
+<tr>
+    <th>First name</th>
+    <th>Surname</th>
+    <th>Telephone</th>
+    <th>Email</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Quentin</td>
+    <td>Tarantino</td>
+    <td>213-633-5285</td>
+    <td>que.tar@gmail.com</td>
+</tr>
+<tr>
+    <td>Martin</td>
+    <td>Scorsese</td>
+    <td>213-423-5285</td>
+    <td>mr.score@gmail.com</td>
+</tr>
+<tr>
+    <td>Robert</td>
+    <td>Rodriguez</td>        
+    <td>213-233-2265</td>
+    <td>rob.rod@gmail.com</td>
+</tr>
+<tr>
+    <td>Steven</td>
+    <td>Spielberg</td>        
+    <td>213-783-2645</td>
+    <td>steve.spi@gmail.com</td>
+</tr>           
+</tbody>
+        </table>
+
+        <form >
+<p> <input placeholder="Enter your name"> </p>
+<p> <input placeholder="Enter your surname"> </p>
+
+
+<div> Gender: <br>
+    <input type="radio" checked name="gender" value="Male">
+    <label for="gender">Male</label>
+</div>
+<div>
+    <input type="radio" name="gender" value=Female>
+    <label for="gender">Female</label>
+</div>
+
+<div><textarea name="question" id="question" cols="30" rows="10" 
+    placeholder="Type your question">
+</textarea></div>
+
+<div>
+<label for="city-select"></label>
+<select name="cities" id="city-select">
+    <option value="Choose your city" selected disabled="true">Choose your city</option>
+    <option value="Lviv">Lviv</option>   
+    <option value="Kyiv">Kyiv</option>
+    <option value="Kharkiv">Kharkiv</option>
+    <option value="Ternopil">Ternopil</option>   
+</select>
+</div>
+
+
+<Fieldset:d> 
+    <legend>Choose language</legend>
+    <div>
+    <input type="checkbox" name="lang-select" id="language">
+    <label for="language">English</label>
+    </div>
+    <div>
+    <input type="checkbox" name="lang-select" id="language">
+    <label for="language">Українська</label>
+    </div>
+    <div>
+    <input type="checkbox" name="lang-select" id="language">
+    <label for="language">Русский</label>
+    </div>
+</Fieldset:d>
+
+<input type="button" value="SEND">
+
+</form>
+
+</body>
+
+</html>
