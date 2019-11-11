@@ -47,24 +47,25 @@
         </table>
 
         <form >
-<p> <input placeholder="Enter your name"> </p>
-<p> <input placeholder="Enter your surname"> </p>
+<div style="margin-top:10px"> <input type="text" placeholder="Enter your name"> </div>
+<div style="margin-top:10px"> <input type="text" placeholder="Enter your surname"> </div>
 
 
-<div> Gender: <br>
-    <input type="radio" checked name="gender" value="Male">
-    <label for="gender">Male</label>
+<p style="margin-bottom:2px"> Gender: </p>
+<div> 
+    <input type="radio" checked name="gender" id="genM" value="Male">
+    <label for="genM">Male</label>
 </div>
 <div>
-    <input type="radio" name="gender" value=Female>
-    <label for="gender">Female</label>
+    <input type="radio" name="gender" id="genF" value=Female>
+    <label for="genF">Female</label>
 </div>
 
 <div><textarea name="question" id="question" cols="30" rows="10" 
     placeholder="Type your question">
 </textarea></div>
 
-<div>
+<div  style="margin-bottom: 10px; margin-top: 10px">
 <label for="city-select"></label>
 <select name="cities" id="city-select">
     <option value="Choose your city" selected disabled="true">Choose your city</option>
@@ -79,16 +80,16 @@
 <Fieldset:d> 
     <legend>Choose language</legend>
     <div>
-    <input type="checkbox" name="lang-select" id="language">
-    <label for="language">English</label>
+    <input type="checkbox" name="lang-select" id="lang-en">
+    <label for="lang-en">English</label>
     </div>
     <div>
-    <input type="checkbox" name="lang-select" id="language">
-    <label for="language">Українська</label>
+    <input type="checkbox" name="lang-select" id="lang-ua">
+    <label for="lang-ua">Українська</label>
     </div>
     <div>
-    <input type="checkbox" name="lang-select" id="language">
-    <label for="language">Русский</label>
+    <input type="checkbox" name="lang-select" id="lang-ru">
+    <label for="lang-ru">Русский</label>
     </div>
 </Fieldset:d>
 
